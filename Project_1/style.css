@@ -1,0 +1,16 @@
+.code-container {
+    background-color: #f4f4f4; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Some padding around the code */
+    overflow-x: auto; /* Adds a horizontal scrollbar if the code is too wide */
+}
+
+pre {
+    margin: 0; /* Removes default margin from <pre> */
+    white-space: pre-wrap; /* Ensures long lines wrap */
+}
+
+code {
+    font-family: monospace; /* Ensures code is displayed in a monospaced font */
+}
