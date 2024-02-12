@@ -7,48 +7,6 @@ body {
     color: #333;
 }
 
-/* Styling for the main heading */
-h1 {
-    color: #0056b3;
-    text-align: center;
-}
-
-/* Styling for subheadings */
-h2, h4 {
-    color: #0066cc;
-}
-
-/* Styling for div containers */
-div {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* Styling for the diagram and video iframe */
-img, iframe {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto; /* Center align */
-}
-
-/* Styling for the code display */
-#codeDisplay {
-    background-color: #eaeaea;
-    color: #333; /* Darker text color for better readability */
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 4px;
-    overflow-x: auto; /* Ensures code is scrollable horizontally if it's too long */
-    white-space: pre-wrap; /* Ensures long lines wrap */
-    word-break: break-all;
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
-}
-
-
 #codeDisplay {
     background-color: #f4f4f4; /* Light gray background */
     color: #333; /* Darker text color for better readability */
