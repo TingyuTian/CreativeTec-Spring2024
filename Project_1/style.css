@@ -18,7 +18,7 @@ body {
     white-space: pre-wrap; /* Ensures that the code wraps and respects whitespace */
     word-wrap: break-word; /* Breaks long words to prevent horizontal scrolling */
     word-break: break-all;
-    max-height: 750px;
+    max-height: 800px;
     font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
 }
 
