@@ -8,3 +8,5 @@ async function displayCode(){
         document.getElementById('lazyBotCodeDisplay').textContent = 'Error loading lazyBotCode.js'
     }
 }
+
+displayCode();
