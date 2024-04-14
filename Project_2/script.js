@@ -1,12 +1,13 @@
-async function displayCode(){
+async function displayCode(file, display){
     try{
-        const response = await fetch('lazyBotCode.js');
+        const response = await fetch(file);
         const text = await response.text();
-        document.getElementById('lazyBotCodeDisplay').textContent = text;
+        document.getElementById(display).textContent = text;
     }catch(error){
-        console.error('Error catching lazyBotCode.js', error);
-        document.getElementById('lazyBotCodeDisplay').textContent = 'Error loading lazyBotCode.js'
+        console.error(`Error catching ${file}`, error);
+        document.getElementById(display).textContent = `Error loading ${file}`
     }
 }
 
-displayCode();
+displayCode('lazyBotCode.py','lazyBotCodeDisplay');
+displayCode('parallelBotCode.py','parallelBotCode');
